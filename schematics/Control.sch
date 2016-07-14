@@ -14317,15 +14317,15 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" deviceset="+12V" device=""/>
 <part name="P-1" library="supply1" deviceset="-12V" device=""/>
-<part name="R501" library="Rebel" deviceset="R-EU_" device="0204/7" value="20k"/>
-<part name="R504" library="Rebel" deviceset="R-EU_" device="0204/7" value="20k"/>
-<part name="R505" library="Rebel" deviceset="R-EU_" device="0204/7" value="100k"/>
-<part name="R502" library="Rebel" deviceset="R-EU_" device="0204/7" value="100k"/>
+<part name="R501" library="Rebel" deviceset="R-EU_" device="0204/7" value="10k"/>
+<part name="R504" library="Rebel" deviceset="R-EU_" device="0204/7" value="10k"/>
+<part name="R505" library="Rebel" deviceset="R-EU_" device="0204/7" value="10k"/>
+<part name="R502" library="Rebel" deviceset="R-EU_" device="0204/7" value="10k"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="R506" library="Rebel" deviceset="R-EU_" device="0204/7" value="20k"/>
-<part name="R509" library="Rebel" deviceset="R-EU_" device="0204/7" value="20k"/>
-<part name="R510" library="Rebel" deviceset="R-EU_" device="0204/7" value="100k"/>
-<part name="R507" library="Rebel" deviceset="R-EU_" device="0204/7" value="100k"/>
+<part name="R506" library="Rebel" deviceset="R-EU_" device="0204/7" value="10k"/>
+<part name="R509" library="Rebel" deviceset="R-EU_" device="0204/7" value="10k"/>
+<part name="R510" library="Rebel" deviceset="R-EU_" device="0204/7" value="10k"/>
+<part name="R507" library="Rebel" deviceset="R-EU_" device="0204/7" value="10k"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="IC5" library="linear" deviceset="NE5532" device="N" value="NE5532N"/>
 <part name="LEFT" library="con-neutrik_ag" deviceset="NCJ10FI-" device="H"/>
@@ -14407,11 +14407,19 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="C18" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="1u"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
+<part name="USBA" library="SparkFun" deviceset="M03" device="PTH"/>
+<part name="GND20" library="supply1" deviceset="GND" device=""/>
+<part name="USBB" library="SparkFun" deviceset="M03" device="PTH"/>
+<part name="GND31" library="supply1" deviceset="GND" device=""/>
+<part name="R8" library="Rebel" deviceset="R-EU_" device="0204/7" value="1M"/>
+<part name="GND32" library="supply1" deviceset="GND" device=""/>
+<part name="R9" library="Rebel" deviceset="R-EU_" device="0204/7" value="1M"/>
+<part name="GND34" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="-25.4" y="-58.42" size="6.4516" layer="97" font="vector">OWL Rack Revision 1</text>
+<text x="-25.4" y="-58.42" size="6.4516" layer="97" font="vector">OWL Rack Revision 2</text>
 <text x="-25.4" y="-66.04" size="3.81" layer="97" font="vector">Copyright 2016 Rebel Technology</text>
 <text x="-25.4" y="-73.66" size="3.81" layer="97" font="vector">Published under the GNU GPL</text>
 <text x="-15.24" y="119.38" size="1.778" layer="97">RC LP filter Fc=650kHz</text>
@@ -14548,6 +14556,14 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <instance part="GND30" gate="1" x="142.24" y="157.48"/>
 <instance part="C18" gate="G$1" x="88.9" y="157.48" rot="MR0"/>
 <instance part="GND5" gate="1" x="88.9" y="144.78"/>
+<instance part="USBA" gate="G$1" x="246.38" y="-35.56" rot="R180"/>
+<instance part="GND20" gate="1" x="236.22" y="-45.72"/>
+<instance part="USBB" gate="G$1" x="368.3" y="-38.1" rot="R180"/>
+<instance part="GND31" gate="1" x="358.14" y="-48.26"/>
+<instance part="R8" gate="G$1" x="-83.82" y="109.22" rot="MR90"/>
+<instance part="GND32" gate="1" x="-83.82" y="99.06" rot="MR0"/>
+<instance part="R9" gate="G$1" x="-83.82" y="63.5" rot="MR90"/>
+<instance part="GND34" gate="1" x="-83.82" y="53.34" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -14727,6 +14743,28 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="88.9" y1="147.32" x2="88.9" y2="152.4" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="USBA" gate="G$1" pin="2"/>
+<pinref part="GND20" gate="1" pin="GND"/>
+<wire x1="238.76" y1="-35.56" x2="236.22" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="-35.56" x2="236.22" y2="-43.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="USBB" gate="G$1" pin="2"/>
+<pinref part="GND31" gate="1" pin="GND"/>
+<wire x1="360.68" y1="-38.1" x2="358.14" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="-38.1" x2="358.14" y2="-45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="GND32" gate="1" pin="GND"/>
+<wire x1="-83.82" y1="101.6" x2="-83.82" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="GND34" gate="1" pin="GND"/>
+<wire x1="-83.82" y1="55.88" x2="-83.82" y2="58.42" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -14856,21 +14894,7 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <pinref part="C13" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="USB_DM" class="0">
-<segment>
-<wire x1="304.8" y1="-38.1" x2="322.58" y2="-38.1" width="0.1524" layer="91"/>
-<label x="307.34" y="-38.1" size="1.778" layer="95"/>
-<pinref part="USB1" gate="G$1" pin="3"/>
-</segment>
-</net>
-<net name="USB_DP" class="0">
-<segment>
-<wire x1="304.8" y1="-35.56" x2="322.58" y2="-35.56" width="0.1524" layer="91"/>
-<label x="307.34" y="-35.56" size="1.778" layer="95"/>
-<pinref part="USB1" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="USB_ID" class="0">
+<net name="USB_ID_B" class="0">
 <segment>
 <label x="307.34" y="-33.02" size="1.778" layer="95"/>
 <pinref part="USB1" gate="G$1" pin="1"/>
@@ -15367,14 +15391,22 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <segment>
 <pinref part="C300" gate="G$1" pin="1"/>
 <pinref part="R502" gate="G$1" pin="1"/>
-<wire x1="-88.9" y1="116.84" x2="-60.96" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="-88.9" y1="116.84" x2="-83.82" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="-83.82" y1="116.84" x2="-60.96" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="114.3" x2="-83.82" y2="116.84" width="0.1524" layer="91"/>
+<junction x="-83.82" y="116.84"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
 <pinref part="C301" gate="G$1" pin="1"/>
 <pinref part="R507" gate="G$1" pin="1"/>
-<wire x1="-60.96" y1="71.12" x2="-88.9" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="71.12" x2="-83.82" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="-83.82" y1="71.12" x2="-88.9" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="68.58" x2="-83.82" y2="71.12" width="0.1524" layer="91"/>
+<junction x="-83.82" y="71.12"/>
 </segment>
 </net>
 <net name="ADC1_A" class="0">
@@ -15481,12 +15513,22 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <label x="185.42" y="-33.02" size="1.778" layer="95"/>
 <pinref part="USB" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<pinref part="USBA" gate="G$1" pin="1"/>
+<wire x1="238.76" y1="-33.02" x2="220.98" y2="-33.02" width="0.1524" layer="91"/>
+<label x="220.98" y="-33.02" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="USB_DM_A" class="0">
 <segment>
 <wire x1="182.88" y1="-35.56" x2="200.66" y2="-35.56" width="0.1524" layer="91"/>
 <label x="185.42" y="-35.56" size="1.778" layer="95"/>
 <pinref part="USB" gate="G$1" pin="3"/>
+</segment>
+<segment>
+<pinref part="USBA" gate="G$1" pin="3"/>
+<wire x1="238.76" y1="-38.1" x2="220.98" y2="-38.1" width="0.1524" layer="91"/>
+<label x="220.98" y="-38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -15588,6 +15630,30 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <pinref part="C18" gate="G$1" pin="+"/>
 <wire x1="88.9" y1="160.02" x2="88.9" y2="162.56" width="0.1524" layer="91"/>
 <junction x="88.9" y="162.56"/>
+</segment>
+</net>
+<net name="USB_DP_B" class="0">
+<segment>
+<pinref part="USBB" gate="G$1" pin="1"/>
+<wire x1="360.68" y1="-35.56" x2="342.9" y2="-35.56" width="0.1524" layer="91"/>
+<label x="342.9" y="-35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="304.8" y1="-35.56" x2="322.58" y2="-35.56" width="0.1524" layer="91"/>
+<label x="307.34" y="-35.56" size="1.778" layer="95"/>
+<pinref part="USB1" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="USB_DM_B" class="0">
+<segment>
+<pinref part="USBB" gate="G$1" pin="3"/>
+<wire x1="360.68" y1="-40.64" x2="342.9" y2="-40.64" width="0.1524" layer="91"/>
+<label x="342.9" y="-40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="304.8" y1="-38.1" x2="322.58" y2="-38.1" width="0.1524" layer="91"/>
+<label x="307.34" y="-38.1" size="1.778" layer="95"/>
+<pinref part="USB1" gate="G$1" pin="3"/>
 </segment>
 </net>
 </nets>
