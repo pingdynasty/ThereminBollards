@@ -2028,11 +2028,11 @@ grid 2.54 mm, diameter 7 mm</description>
 <attribute name="NAME" x="103.124" y="58.801" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="103.124" y="56.896" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C7" library="rcl" package="C050-025X075" value="10u" x="96.52" y="66.675" smashed="yes" rot="R180">
+<element name="C7" library="rcl" package="C050-025X075" value="10u NP" x="96.52" y="66.675" smashed="yes" rot="R180">
 <attribute name="NAME" x="99.949" y="65.024" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="99.949" y="69.469" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="C8" library="rcl" package="C050-025X075" value="10u" x="88.9" y="66.675" smashed="yes" rot="R180">
+<element name="C8" library="rcl" package="C050-025X075" value="10u NP" x="88.9" y="66.675" smashed="yes" rot="R180">
 <attribute name="NAME" x="88.011" y="68.326" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="92.329" y="69.469" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
@@ -2048,18 +2048,18 @@ grid 2.54 mm, diameter 7 mm</description>
 <attribute name="NAME" x="85.344" y="59.436" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="85.344" y="56.896" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C3" library="rcl" package="C050-025X075" value="10u" x="78.74" y="66.675" smashed="yes" rot="R180">
+<element name="C3" library="rcl" package="C050-025X075" value="10u NP" x="78.74" y="66.675" smashed="yes" rot="R180">
 <attribute name="NAME" x="77.851" y="68.326" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="82.169" y="69.469" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="C4" library="rcl" package="C050-025X075" value="10u" x="71.12" y="66.675" smashed="yes">
+<element name="C4" library="rcl" package="C050-025X075" value="10u NP" x="71.12" y="66.675" smashed="yes">
 <attribute name="NAME" x="70.231" y="68.326" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="67.691" y="63.881" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="J4" library="neutrik_jacks" package="NMJ6HCD2" value="NEUTRIK_NMJ6HCD2" x="13.97" y="92.71" rot="R90"/>
 <element name="J5" library="neutrik_jacks" package="NMJ6HCD2" value="NEUTRIK_NMJ6HCD2" x="41.91" y="92.71" rot="R90"/>
-<element name="C300" library="capacitor-wima" package="C5B3.5" value="0.1uF" x="30.7975" y="70.8025" rot="R180"/>
-<element name="C301" library="capacitor-wima" package="C5B3.5" value="0.1uF" x="39.6875" y="70.8025"/>
+<element name="C300" library="capacitor-wima" package="C5B3.5" value="0.1u Polyester" x="30.7975" y="70.8025" rot="R180"/>
+<element name="C301" library="capacitor-wima" package="C5B3.5" value="0.1u Polyester" x="39.6875" y="70.8025"/>
 <element name="R300" library="Rebel" package="0204/7" value="1M" x="21.9075" y="70.8025"/>
 <element name="R301" library="Rebel" package="0204/7" value="1M" x="48.5775" y="70.8025" rot="R180"/>
 <element name="C11" library="rcl" package="C050-025X075" value="100n" x="34.29" y="56.515" smashed="yes" rot="R180">
@@ -2076,25 +2076,25 @@ grid 2.54 mm, diameter 7 mm</description>
 <element name="JP1" library="SparkFun" package="1X05" value="" x="15.5575" y="74.6125" smashed="yes">
 <attribute name="VALUE" x="14.2875" y="71.4375" size="1.27" layer="27"/>
 </element>
-<element name="C13" library="rcl" package="C050-025X075" value="2n7 C0G" x="22.86" y="56.515" smashed="yes">
+<element name="C13" library="rcl" package="C050-025X075" value="dnp /2n7 C0G" x="22.86" y="56.515" smashed="yes">
 <attribute name="NAME" x="20.701" y="58.166" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="19.431" y="53.721" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="C14" library="rcl" package="C050-025X075" value="2n7 C0G" x="45.72" y="56.515" smashed="yes" rot="R180">
+<element name="C14" library="rcl" package="C050-025X075" value="dnp / 2n7 C0G" x="45.72" y="56.515" smashed="yes" rot="R180">
 <attribute name="NAME" x="44.196" y="58.166" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="49.149" y="59.309" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R1" library="Rebel" package="0204/7" value="91R" x="19.05" y="31.4325" rot="R180"/>
 <element name="R2" library="Rebel" package="0204/7" value="91R" x="19.05" y="33.9725" rot="R180"/>
-<element name="C9" library="capacitor-wima" package="C5B3.5" value="0.1uF" x="88.9" y="50.165" smashed="yes" rot="R180">
+<element name="C9" library="capacitor-wima" package="C5B3.5" value="0.1u Polyester" x="88.9" y="50.165" smashed="yes" rot="R180">
 <attribute name="NAME" x="90.17" y="48.133" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="91.44" y="53.467" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="C10" library="capacitor-wima" package="C5B3.5" value="0.1uF" x="71.12" y="50.165" smashed="yes" rot="R180">
+<element name="C10" library="capacitor-wima" package="C5B3.5" value="0.1u Polyester" x="71.12" y="50.165" smashed="yes" rot="R180">
 <attribute name="NAME" x="72.39" y="48.133" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="73.66" y="53.467" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="C611" library="rcl" package="E2,5-7" value="100uF" x="26.67" y="61.595" smashed="yes" rot="R180">
+<element name="C611" library="rcl" package="E2,5-7" value="100u" x="26.67" y="61.595" smashed="yes" rot="R180">
 <attribute name="NAME" x="24.638" y="62.992" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="23.622" y="64.77" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>

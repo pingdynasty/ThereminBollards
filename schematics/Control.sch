@@ -14338,8 +14338,8 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="C7" library="rcl" deviceset="C-EU" device="050-025X075" value="10u"/>
-<part name="C8" library="rcl" deviceset="C-EU" device="050-025X075" value="10u"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="050-025X075" value="10u NP"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="050-025X075" value="10u NP"/>
 <part name="GND11" library="supply1" deviceset="GNDA" device=""/>
 <part name="IC1" library="ic-package" deviceset="DIL8" device="" value="THAT1646"/>
 <part name="P-4" library="supply1" deviceset="-12V" device=""/>
@@ -14349,13 +14349,13 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="C3" library="rcl" deviceset="C-EU" device="050-025X075" value="10u"/>
-<part name="C4" library="rcl" deviceset="C-EU" device="050-025X075" value="10u"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="050-025X075" value="10u NP"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="050-025X075" value="10u NP"/>
 <part name="GND15" library="supply1" deviceset="GNDA" device=""/>
 <part name="J4" library="neutrik_jacks" deviceset="NEUTRIK_NMJ6HCD2" device=""/>
 <part name="J5" library="neutrik_jacks" deviceset="NEUTRIK_NMJ6HCD2" device=""/>
-<part name="C300" library="capacitor-wima" deviceset="C" device="5/3.5" value="0.1uF"/>
-<part name="C301" library="capacitor-wima" deviceset="C" device="5/3.5" value="0.1uF"/>
+<part name="C300" library="capacitor-wima" deviceset="C" device="5/3.5" value="0.1u Polyester"/>
+<part name="C301" library="capacitor-wima" deviceset="C" device="5/3.5" value="0.1u Polyester"/>
 <part name="R300" library="Rebel" deviceset="R-EU_" device="0204/7" value="1M"/>
 <part name="R301" library="Rebel" deviceset="R-EU_" device="0204/7" value="1M"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
@@ -14364,15 +14364,15 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <part name="C12" library="rcl" deviceset="C-EU" device="050-025X075" value="100n"/>
 <part name="JP13" library="SparkFun" deviceset="M05" device="PTH"/>
 <part name="JP1" library="SparkFun" deviceset="M05" device="PTH"/>
-<part name="C13" library="rcl" deviceset="C-EU" device="050-025X075" value="2n7 C0G"/>
-<part name="C14" library="rcl" deviceset="C-EU" device="050-025X075" value="2n7 C0G"/>
+<part name="C13" library="rcl" deviceset="C-EU" device="050-025X075" value="dnp /2n7 C0G"/>
+<part name="C14" library="rcl" deviceset="C-EU" device="050-025X075" value="dnp / 2n7 C0G"/>
 <part name="R1" library="Rebel" deviceset="R-EU_" device="0204/7" value="91R"/>
 <part name="R2" library="Rebel" deviceset="R-EU_" device="0204/7" value="91R"/>
-<part name="C9" library="capacitor-wima" deviceset="C" device="5/3.5" value="0.1uF"/>
-<part name="C10" library="capacitor-wima" deviceset="C" device="5/3.5" value="0.1uF"/>
+<part name="C9" library="capacitor-wima" deviceset="C" device="5/3.5" value="0.1u Polyester"/>
+<part name="C10" library="capacitor-wima" deviceset="C" device="5/3.5" value="0.1u Polyester"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="C611" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="100uF"/>
+<part name="C611" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="100u"/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="C610" library="rcl" deviceset="C-EU" device="050-025X075" value="100n"/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
@@ -14515,8 +14515,8 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <instance part="C10" gate="G$1" x="388.62" y="22.86" rot="MR90"/>
 <instance part="GND4" gate="1" x="172.72" y="22.86"/>
 <instance part="GND16" gate="1" x="294.64" y="22.86"/>
-<instance part="C611" gate="G$1" x="96.52" y="27.94" rot="MR0"/>
-<instance part="GND33" gate="1" x="96.52" y="10.16" rot="MR0"/>
+<instance part="C611" gate="G$1" x="101.6" y="27.94" rot="MR0"/>
+<instance part="GND33" gate="1" x="101.6" y="10.16" rot="MR0"/>
 <instance part="C610" gate="G$1" x="81.28" y="27.94"/>
 <instance part="GND38" gate="1" x="81.28" y="10.16" rot="MR0"/>
 <instance part="C15" gate="G$1" x="76.2" y="106.68" rot="MR0"/>
@@ -14674,7 +14674,7 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <segment>
 <pinref part="C611" gate="G$1" pin="-"/>
 <pinref part="GND33" gate="1" pin="GND"/>
-<wire x1="96.52" y1="22.86" x2="96.52" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="22.86" x2="101.6" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C610" gate="G$1" pin="2"/>
@@ -15083,8 +15083,8 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <segment>
 <pinref part="C610" gate="G$1" pin="1"/>
 <pinref part="C611" gate="G$1" pin="+"/>
-<wire x1="96.52" y1="33.02" x2="96.52" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="33.02" x2="81.28" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="33.02" x2="101.6" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="33.02" x2="81.28" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="33.02" x2="81.28" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="33.02" x2="66.04" y2="33.02" width="0.1524" layer="91"/>
 <junction x="81.28" y="33.02"/>
